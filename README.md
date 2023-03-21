@@ -1,6 +1,8 @@
 # Youtube Clone - Frontend
 이 레파지토리는 임시로 생성되었습니다.
 
+figma: [링크](https://www.figma.com/file/2uYtkweyAtBjYd1vBwotE5/Youtube-Clone-Coding-UI)
+
 # 🖥️ 기본 정보
 
 ## 📍 버전
