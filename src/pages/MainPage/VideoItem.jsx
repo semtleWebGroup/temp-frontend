@@ -1,10 +1,11 @@
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+
 
 import './VideoItem.scss';
+import VideoItemMore from './VideoItemMore';
 
 function VideoItem({title, thumbnail}) {
   return (
-    <div className="box">
+    <div className="VideoItem">
       <div className='thumbnailWrapper'>
         <img className='thumbnail' src={thumbnail} ></img>
       </div>
@@ -22,7 +23,7 @@ function VideoItem({title, thumbnail}) {
             </div>
           </div>
           <div className='MoreArea'>
-            <MoreVertIcon className='icon' fontSize='small' />
+            <VideoItemMore />
           </div>
         </div>
       </div>
